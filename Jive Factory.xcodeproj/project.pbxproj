@@ -14,6 +14,10 @@
 		D50A9BA81E77206500E58073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BA61E77206500E58073 /* LaunchScreen.storyboard */; };
 		D50A9BB31E77206500E58073 /* Jive_FactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A9BB21E77206500E58073 /* Jive_FactoryTests.swift */; };
 		D50A9BBE1E77206500E58073 /* Jive_FactoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A9BBD1E77206500E58073 /* Jive_FactoryUITests.swift */; };
+		D50A9BCF1E7725BC00E58073 /* thumb-ambulance-ltd.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BCB1E7725BC00E58073 /* thumb-ambulance-ltd.png */; };
+		D50A9BD01E7725BC00E58073 /* thumb-black-angels.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BCC1E7725BC00E58073 /* thumb-black-angels.png */; };
+		D50A9BD11E7725BC00E58073 /* thumb-nicole-atkins.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BCD1E7725BC00E58073 /* thumb-nicole-atkins.png */; };
+		D50A9BD21E7725BC00E58073 /* thumb-sleepies.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BCE1E7725BC00E58073 /* thumb-sleepies.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		D50A9BB91E77206500E58073 /* Jive FactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jive FactoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50A9BBD1E77206500E58073 /* Jive_FactoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jive_FactoryUITests.swift; sourceTree = "<group>"; };
 		D50A9BBF1E77206500E58073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50A9BCB1E7725BC00E58073 /* thumb-ambulance-ltd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-ambulance-ltd.png"; path = "../../../Downloads/thumb-ambulance-ltd.png"; sourceTree = "<group>"; };
+		D50A9BCC1E7725BC00E58073 /* thumb-black-angels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-black-angels.png"; path = "../../../Downloads/thumb-black-angels.png"; sourceTree = "<group>"; };
+		D50A9BCD1E7725BC00E58073 /* thumb-nicole-atkins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-nicole-atkins.png"; path = "../../../Downloads/thumb-nicole-atkins.png"; sourceTree = "<group>"; };
+		D50A9BCE1E7725BC00E58073 /* thumb-sleepies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-sleepies.png"; path = "../../../Downloads/thumb-sleepies.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,7 @@
 				D50A9BA41E77206500E58073 /* Assets.xcassets */,
 				D50A9BA61E77206500E58073 /* LaunchScreen.storyboard */,
 				D50A9BA91E77206500E58073 /* Info.plist */,
+				D50A9BD31E7725DB00E58073 /* Images */,
 			);
 			path = "Jive Factory";
 			sourceTree = "<group>";
@@ -123,6 +132,17 @@
 				D50A9BBF1E77206500E58073 /* Info.plist */,
 			);
 			path = "Jive FactoryUITests";
+			sourceTree = "<group>";
+		};
+		D50A9BD31E7725DB00E58073 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D50A9BCB1E7725BC00E58073 /* thumb-ambulance-ltd.png */,
+				D50A9BCC1E7725BC00E58073 /* thumb-black-angels.png */,
+				D50A9BCD1E7725BC00E58073 /* thumb-nicole-atkins.png */,
+				D50A9BCE1E7725BC00E58073 /* thumb-sleepies.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +252,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50A9BD01E7725BC00E58073 /* thumb-black-angels.png in Resources */,
+				D50A9BCF1E7725BC00E58073 /* thumb-ambulance-ltd.png in Resources */,
+				D50A9BD11E7725BC00E58073 /* thumb-nicole-atkins.png in Resources */,
 				D50A9BA81E77206500E58073 /* LaunchScreen.storyboard in Resources */,
+				D50A9BD21E7725BC00E58073 /* thumb-sleepies.png in Resources */,
 				D50A9BA51E77206500E58073 /* Assets.xcassets in Resources */,
 				D50A9BA31E77206500E58073 /* Main.storyboard in Resources */,
 			);

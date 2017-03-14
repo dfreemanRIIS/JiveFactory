@@ -24,6 +24,7 @@
 		D50A9BDD1E785AC000E58073 /* locationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BDA1E785AC000E58073 /* locationIcon.png */; };
 		D50A9BDE1E785AC000E58073 /* locationIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BDB1E785AC000E58073 /* locationIcon@2x.png */; };
 		D50A9BDF1E785AC000E58073 /* locationIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BDC1E785AC000E58073 /* locationIcon@3x.png */; };
+		D50A9BE21E785D7400E58073 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50A9BE11E785D7400E58073 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		D50A9BDA1E785AC000E58073 /* locationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = locationIcon.png; path = ../../../Downloads/locationIcon.png; sourceTree = "<group>"; };
 		D50A9BDB1E785AC000E58073 /* locationIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "locationIcon@2x.png"; path = "../../../Downloads/locationIcon@2x.png"; sourceTree = "<group>"; };
 		D50A9BDC1E785AC000E58073 /* locationIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "locationIcon@3x.png"; path = "../../../Downloads/locationIcon@3x.png"; sourceTree = "<group>"; };
+		D50A9BE11E785D7400E58073 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50A9BE21E785D7400E58073 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +104,7 @@
 				D50A9BB11E77206500E58073 /* Jive FactoryTests */,
 				D50A9BBC1E77206500E58073 /* Jive FactoryUITests */,
 				D50A9B9B1E77206500E58073 /* Products */,
+				D50A9BE01E785D7400E58073 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,6 +165,14 @@
 				D50A9BCE1E7725BC00E58073 /* thumb-sleepies.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		D50A9BE01E785D7400E58073 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D50A9BE11E785D7400E58073 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

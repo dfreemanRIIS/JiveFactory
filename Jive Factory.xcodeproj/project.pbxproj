@@ -21,6 +21,9 @@
 		D50A9BD51E772AAD00E58073 /* BandsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A9BD41E772AAD00E58073 /* BandsTableViewController.swift */; };
 		D50A9BD71E784DC600E58073 /* BandsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A9BD61E784DC600E58073 /* BandsDetailViewController.swift */; };
 		D50A9BD91E7850F900E58073 /* BandDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A9BD81E7850F900E58073 /* BandDetail.swift */; };
+		D50A9BDD1E785AC000E58073 /* locationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BDA1E785AC000E58073 /* locationIcon.png */; };
+		D50A9BDE1E785AC000E58073 /* locationIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BDB1E785AC000E58073 /* locationIcon@2x.png */; };
+		D50A9BDF1E785AC000E58073 /* locationIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BDC1E785AC000E58073 /* locationIcon@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		D50A9BD41E772AAD00E58073 /* BandsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandsTableViewController.swift; sourceTree = "<group>"; };
 		D50A9BD61E784DC600E58073 /* BandsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandsDetailViewController.swift; sourceTree = "<group>"; };
 		D50A9BD81E7850F900E58073 /* BandDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandDetail.swift; sourceTree = "<group>"; };
+		D50A9BDA1E785AC000E58073 /* locationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = locationIcon.png; path = ../../../Downloads/locationIcon.png; sourceTree = "<group>"; };
+		D50A9BDB1E785AC000E58073 /* locationIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "locationIcon@2x.png"; path = "../../../Downloads/locationIcon@2x.png"; sourceTree = "<group>"; };
+		D50A9BDC1E785AC000E58073 /* locationIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "locationIcon@3x.png"; path = "../../../Downloads/locationIcon@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +152,9 @@
 		D50A9BD31E7725DB00E58073 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D50A9BDA1E785AC000E58073 /* locationIcon.png */,
+				D50A9BDB1E785AC000E58073 /* locationIcon@2x.png */,
+				D50A9BDC1E785AC000E58073 /* locationIcon@3x.png */,
 				D50A9BCB1E7725BC00E58073 /* thumb-ambulance-ltd.png */,
 				D50A9BCC1E7725BC00E58073 /* thumb-black-angels.png */,
 				D50A9BCD1E7725BC00E58073 /* thumb-nicole-atkins.png */,
@@ -266,8 +275,11 @@
 				D50A9BD11E7725BC00E58073 /* thumb-nicole-atkins.png in Resources */,
 				D50A9BA81E77206500E58073 /* LaunchScreen.storyboard in Resources */,
 				D50A9BD21E7725BC00E58073 /* thumb-sleepies.png in Resources */,
+				D50A9BDD1E785AC000E58073 /* locationIcon.png in Resources */,
 				D50A9BA51E77206500E58073 /* Assets.xcassets in Resources */,
 				D50A9BA31E77206500E58073 /* Main.storyboard in Resources */,
+				D50A9BDE1E785AC000E58073 /* locationIcon@2x.png in Resources */,
+				D50A9BDF1E785AC000E58073 /* locationIcon@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

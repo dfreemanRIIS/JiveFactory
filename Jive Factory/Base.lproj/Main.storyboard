@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="V6x-6T-0ki">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2ub-65-0rW">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -113,7 +113,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Muc-XX-9Bd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Muc-XX-9Bd">
                                 <rect key="frame" x="20" y="207" width="280" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -150,10 +150,48 @@
             </objects>
             <point key="canvasLocation" x="1189.5999999999999" y="52.623688155922046"/>
         </scene>
+        <!--Map-->
+        <scene sceneID="NpF-Kz-Wdg">
+            <objects>
+                <viewController id="nEC-5P-h0E" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ImY-V6-N4W"/>
+                        <viewControllerLayoutGuide type="bottom" id="utO-ZP-d45"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bHQ-Co-kDu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="locationIcon.png" id="tBl-Hq-X97"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lj7-qc-XLm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-90" y="713"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Ab1-u5-h6i">
+            <objects>
+                <tabBarController id="2ub-65-0rW" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="at7-jL-lvP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="V6x-6T-0ki" kind="relationship" relationship="viewControllers" id="DIR-48-XLf"/>
+                        <segue destination="nEC-5P-h0E" kind="relationship" relationship="viewControllers" id="G5c-eA-X54"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XTn-UE-hP7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-897" y="334"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="boS-B6-MCy">
             <objects>
                 <navigationController id="V6x-6T-0ki" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="featured" id="0s1-9s-Fhg"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="t9S-N6-MV5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -168,6 +206,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="locationIcon.png" width="20" height="30"/>
         <image name="thumb-nicole-atkins.png" width="68" height="68"/>
     </resources>
 </document>

@@ -15,11 +15,13 @@ class WebViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let jiveURL = NSURL(string: "http://www.thejivefactory.com")
-        let myNSURLRequest = NSURLRequest(url: jiveURL! as URL)
-        siteWebView.loadRequest(myNSURLRequest as URLRequest)
+        //let jiveURL = NSURL(string: "http://www.thejivefactory.com")
+        //let myNSURLRequest = NSURLRequest(url: jiveURL! as URL)
+        //siteWebView.loadRequest(myNSURLRequest as URLRequest)
 
-        // Do any additional setup after loading the view.
+        let htmlString = "<html><body><iframe style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" src=\"http://www.youtube.com/embed/Go9k14yrxeQ?rel=0\" frameborder=\"0\" allowfullscreen></iframe></body></html>"
+        
+        siteWebView.loadHTMLString(htmlString, baseURL: nil)
     }
 
     override func didReceiveMemoryWarning() {

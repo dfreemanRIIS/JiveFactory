@@ -19,6 +19,8 @@
 		D50A9BD11E7725BC00E58073 /* thumb-nicole-atkins.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BCD1E7725BC00E58073 /* thumb-nicole-atkins.png */; };
 		D50A9BD21E7725BC00E58073 /* thumb-sleepies.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BCE1E7725BC00E58073 /* thumb-sleepies.png */; };
 		D50A9BD51E772AAD00E58073 /* BandsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A9BD41E772AAD00E58073 /* BandsTableViewController.swift */; };
+		D50A9BD71E784DC600E58073 /* BandsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A9BD61E784DC600E58073 /* BandsDetailViewController.swift */; };
+		D50A9BD91E7850F900E58073 /* BandDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A9BD81E7850F900E58073 /* BandDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		D50A9BCD1E7725BC00E58073 /* thumb-nicole-atkins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-nicole-atkins.png"; path = "../../../Downloads/thumb-nicole-atkins.png"; sourceTree = "<group>"; };
 		D50A9BCE1E7725BC00E58073 /* thumb-sleepies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-sleepies.png"; path = "../../../Downloads/thumb-sleepies.png"; sourceTree = "<group>"; };
 		D50A9BD41E772AAD00E58073 /* BandsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandsTableViewController.swift; sourceTree = "<group>"; };
+		D50A9BD61E784DC600E58073 /* BandsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandsDetailViewController.swift; sourceTree = "<group>"; };
+		D50A9BD81E7850F900E58073 /* BandDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 				D50A9B9D1E77206500E58073 /* AppDelegate.swift */,
 				D50A9B9F1E77206500E58073 /* ViewController.swift */,
 				D50A9BD41E772AAD00E58073 /* BandsTableViewController.swift */,
+				D50A9BD61E784DC600E58073 /* BandsDetailViewController.swift */,
+				D50A9BD81E7850F900E58073 /* BandDetail.swift */,
 				D50A9BA11E77206500E58073 /* Main.storyboard */,
 				D50A9BA41E77206500E58073 /* Assets.xcassets */,
 				D50A9BA61E77206500E58073 /* LaunchScreen.storyboard */,
@@ -286,8 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50A9BD71E784DC600E58073 /* BandsDetailViewController.swift in Sources */,
 				D50A9BA01E77206500E58073 /* ViewController.swift in Sources */,
 				D50A9BD51E772AAD00E58073 /* BandsTableViewController.swift in Sources */,
+				D50A9BD91E7850F900E58073 /* BandDetail.swift in Sources */,
 				D50A9B9E1E77206500E58073 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

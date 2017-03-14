@@ -46,7 +46,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="577-AF-Xec" kind="show" id="9e9-k7-o89"/>
+                                    <segue destination="577-AF-Xec" kind="show" identifier="showDetail" id="9e9-k7-o89"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -62,10 +62,10 @@
             </objects>
             <point key="canvasLocation" x="558" y="53"/>
         </scene>
-        <!--View Controller-->
+        <!--Bands Detail View Controller-->
         <scene sceneID="yqa-5t-cXD">
             <objects>
-                <viewController id="577-AF-Xec" sceneMemberID="viewController">
+                <viewController id="577-AF-Xec" customClass="BandsDetailViewController" customModule="Jive_Factory" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0AP-Q2-pxC"/>
                         <viewControllerLayoutGuide type="bottom" id="3FX-9w-dVZ"/>
@@ -74,7 +74,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PWS-pj-4FC">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thumb-nicole-atkins.png" translatesAutoresizingMaskIntoConstraints="NO" id="PWS-pj-4FC">
                                 <rect key="frame" x="20" y="84" width="96" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -125,13 +125,30 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.85251116071428568" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name of Band" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQr-av-Hcn">
+                                <rect key="frame" x="124" y="84" width="109" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="bandDescriptionLabel" destination="Muc-XX-9Bd" id="CRt-N4-gMB"/>
+                        <outlet property="bandImage" destination="PWS-pj-4FC" id="Ugd-LU-pN8"/>
+                        <outlet property="bandNameLabel" destination="OQr-av-Hcn" id="tlQ-Ho-hPy"/>
+                        <outlet property="bandTypeLabel" destination="0jH-QF-tls" id="sZL-FS-Kse"/>
+                        <outlet property="showDateLabel" destination="DVz-Vw-QmJ" id="c2S-Za-ESe"/>
+                        <outlet property="showDetailsLabel" destination="lC1-yo-PKM" id="fbO-F6-fe3"/>
+                        <outlet property="showTimeLabel" destination="VpU-qh-whX" id="AJ9-iF-MjH"/>
+                        <outlet property="venueLabel" destination="wXk-xT-tca" id="z8H-MU-kqo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HlE-Y5-rev" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1191" y="53"/>
+            <point key="canvasLocation" x="1189.5999999999999" y="52.623688155922046"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="boS-B6-MCy">

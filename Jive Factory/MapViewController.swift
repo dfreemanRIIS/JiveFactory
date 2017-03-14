@@ -29,6 +29,12 @@ class MapViewController: UIViewController {
         jiveRegion.center = center
         jiveRegion.span = span
         jiveMapView.setRegion(jiveRegion, animated: true)
+        
+        let jivePoint = MKPointAnnotation()
+        jivePoint.coordinate = center
+        jivePoint.title = "The Jive Factory"
+        jivePoint.subtitle = "580 Lispenard, NY, NY 10013"
+        jiveMapView.addAnnotation(jivePoint)
     }
 
     override func didReceiveMemoryWarning() {

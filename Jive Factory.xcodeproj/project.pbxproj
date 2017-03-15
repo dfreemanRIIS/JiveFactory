@@ -38,6 +38,7 @@
 		D50A9BFE1E796DAF00E58073 /* full-sleepies.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BF21E796DAF00E58073 /* full-sleepies.png */; };
 		D50A9BFF1E796DAF00E58073 /* full-sleepies@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BF31E796DAF00E58073 /* full-sleepies@2x.png */; };
 		D50A9C001E796DAF00E58073 /* full-sleepies@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BF41E796DAF00E58073 /* full-sleepies@3x.png */; };
+		D50A9C021E798D0F00E58073 /* BandsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A9C011E798D0F00E58073 /* BandsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		D50A9BF21E796DAF00E58073 /* full-sleepies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-sleepies.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-sleepies.png"; sourceTree = "<group>"; };
 		D50A9BF31E796DAF00E58073 /* full-sleepies@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-sleepies@2x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-sleepies@2x.png"; sourceTree = "<group>"; };
 		D50A9BF41E796DAF00E58073 /* full-sleepies@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-sleepies@3x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-sleepies@3x.png"; sourceTree = "<group>"; };
+		D50A9C011E798D0F00E58073 /* BandsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				D50A9B9D1E77206500E58073 /* AppDelegate.swift */,
+				D50A9C011E798D0F00E58073 /* BandsModel.swift */,
 				D50A9B9F1E77206500E58073 /* ViewController.swift */,
 				D50A9BD41E772AAD00E58073 /* BandsTableViewController.swift */,
 				D50A9BD61E784DC600E58073 /* BandsDetailViewController.swift */,
@@ -369,6 +372,7 @@
 			files = (
 				D50A9BD71E784DC600E58073 /* BandsDetailViewController.swift in Sources */,
 				D50A9BE41E7862E700E58073 /* MapViewController.swift in Sources */,
+				D50A9C021E798D0F00E58073 /* BandsModel.swift in Sources */,
 				D50A9BA01E77206500E58073 /* ViewController.swift in Sources */,
 				D50A9BD51E772AAD00E58073 /* BandsTableViewController.swift in Sources */,
 				D50A9BD91E7850F900E58073 /* BandDetail.swift in Sources */,

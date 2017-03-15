@@ -14,31 +14,35 @@
 		D50A9BA81E77206500E58073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BA61E77206500E58073 /* LaunchScreen.storyboard */; };
 		D50A9BB31E77206500E58073 /* Jive_FactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A9BB21E77206500E58073 /* Jive_FactoryTests.swift */; };
 		D50A9BBE1E77206500E58073 /* Jive_FactoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A9BBD1E77206500E58073 /* Jive_FactoryUITests.swift */; };
-		D50A9BCF1E7725BC00E58073 /* thumb-ambulance-ltd.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BCB1E7725BC00E58073 /* thumb-ambulance-ltd.png */; };
-		D50A9BD01E7725BC00E58073 /* thumb-black-angels.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BCC1E7725BC00E58073 /* thumb-black-angels.png */; };
-		D50A9BD11E7725BC00E58073 /* thumb-nicole-atkins.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BCD1E7725BC00E58073 /* thumb-nicole-atkins.png */; };
-		D50A9BD21E7725BC00E58073 /* thumb-sleepies.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BCE1E7725BC00E58073 /* thumb-sleepies.png */; };
 		D50A9BD51E772AAD00E58073 /* BandsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A9BD41E772AAD00E58073 /* BandsTableViewController.swift */; };
 		D50A9BD71E784DC600E58073 /* BandsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A9BD61E784DC600E58073 /* BandsDetailViewController.swift */; };
 		D50A9BD91E7850F900E58073 /* BandDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A9BD81E7850F900E58073 /* BandDetail.swift */; };
-		D50A9BDD1E785AC000E58073 /* locationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BDA1E785AC000E58073 /* locationIcon.png */; };
-		D50A9BDE1E785AC000E58073 /* locationIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BDB1E785AC000E58073 /* locationIcon@2x.png */; };
-		D50A9BDF1E785AC000E58073 /* locationIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BDC1E785AC000E58073 /* locationIcon@3x.png */; };
 		D50A9BE21E785D7400E58073 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50A9BE11E785D7400E58073 /* MapKit.framework */; };
 		D50A9BE41E7862E700E58073 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A9BE31E7862E700E58073 /* MapViewController.swift */; };
-		D50A9BF51E796DAF00E58073 /* full-ambulance-ltd.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BE91E796DAF00E58073 /* full-ambulance-ltd.png */; };
-		D50A9BF61E796DAF00E58073 /* full-ambulance-ltd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BEA1E796DAF00E58073 /* full-ambulance-ltd@2x.png */; };
-		D50A9BF71E796DAF00E58073 /* full-ambulance-ltd@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BEB1E796DAF00E58073 /* full-ambulance-ltd@3x.png */; };
-		D50A9BF81E796DAF00E58073 /* full-black-angels.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BEC1E796DAF00E58073 /* full-black-angels.png */; };
-		D50A9BF91E796DAF00E58073 /* full-black-angels@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BED1E796DAF00E58073 /* full-black-angels@2x.png */; };
-		D50A9BFA1E796DAF00E58073 /* full-black-angels@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BEE1E796DAF00E58073 /* full-black-angels@3x.png */; };
-		D50A9BFB1E796DAF00E58073 /* full-nicole-atkins.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BEF1E796DAF00E58073 /* full-nicole-atkins.png */; };
-		D50A9BFC1E796DAF00E58073 /* full-nicole-atkins@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BF01E796DAF00E58073 /* full-nicole-atkins@2x.png */; };
-		D50A9BFD1E796DAF00E58073 /* full-nicole-atkins@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BF11E796DAF00E58073 /* full-nicole-atkins@3x.png */; };
-		D50A9BFE1E796DAF00E58073 /* full-sleepies.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BF21E796DAF00E58073 /* full-sleepies.png */; };
-		D50A9BFF1E796DAF00E58073 /* full-sleepies@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BF31E796DAF00E58073 /* full-sleepies@2x.png */; };
-		D50A9C001E796DAF00E58073 /* full-sleepies@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9BF41E796DAF00E58073 /* full-sleepies@3x.png */; };
 		D50A9C021E798D0F00E58073 /* BandsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50A9C011E798D0F00E58073 /* BandsModel.swift */; };
+		D50A9C131E79B59200E58073 /* full-ambulance-ltd.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C071E79B59200E58073 /* full-ambulance-ltd.png */; };
+		D50A9C141E79B59200E58073 /* full-ambulance-ltd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C081E79B59200E58073 /* full-ambulance-ltd@2x.png */; };
+		D50A9C151E79B59200E58073 /* full-ambulance-ltd@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C091E79B59200E58073 /* full-ambulance-ltd@3x.png */; };
+		D50A9C161E79B59200E58073 /* full-black-angels.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C0A1E79B59200E58073 /* full-black-angels.png */; };
+		D50A9C171E79B59200E58073 /* full-black-angels@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C0B1E79B59200E58073 /* full-black-angels@2x.png */; };
+		D50A9C181E79B59200E58073 /* full-black-angels@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C0C1E79B59200E58073 /* full-black-angels@3x.png */; };
+		D50A9C191E79B59200E58073 /* full-nicole-atkins.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C0D1E79B59200E58073 /* full-nicole-atkins.png */; };
+		D50A9C1A1E79B59200E58073 /* full-nicole-atkins@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C0E1E79B59200E58073 /* full-nicole-atkins@2x.png */; };
+		D50A9C1B1E79B59200E58073 /* full-nicole-atkins@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C0F1E79B59200E58073 /* full-nicole-atkins@3x.png */; };
+		D50A9C1C1E79B59200E58073 /* full-sleepies.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C101E79B59200E58073 /* full-sleepies.png */; };
+		D50A9C1D1E79B59200E58073 /* full-sleepies@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C111E79B59200E58073 /* full-sleepies@2x.png */; };
+		D50A9C1E1E79B59200E58073 /* full-sleepies@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C121E79B59200E58073 /* full-sleepies@3x.png */; };
+		D50A9C231E79B5A100E58073 /* thumb-ambulance-ltd.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C1F1E79B5A100E58073 /* thumb-ambulance-ltd.png */; };
+		D50A9C241E79B5A100E58073 /* thumb-black-angels.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C201E79B5A100E58073 /* thumb-black-angels.png */; };
+		D50A9C251E79B5A100E58073 /* thumb-nicole-atkins.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C211E79B5A100E58073 /* thumb-nicole-atkins.png */; };
+		D50A9C261E79B5A100E58073 /* thumb-sleepies.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C221E79B5A100E58073 /* thumb-sleepies.png */; };
+		D50A9C2A1E79B5B800E58073 /* locationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C271E79B5B800E58073 /* locationIcon.png */; };
+		D50A9C2B1E79B5B800E58073 /* locationIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C281E79B5B800E58073 /* locationIcon@2x.png */; };
+		D50A9C2C1E79B5B800E58073 /* locationIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C291E79B5B800E58073 /* locationIcon@3x.png */; };
+		D50A9C2F1E79B78B00E58073 /* Bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = D50A9C2E1E79B78B00E58073 /* Bridge.m */; };
+		D50A9C331E79B9AC00E58073 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C321E79B9AC00E58073 /* Podfile */; };
+		D50A9C351E79BA6E00E58073 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D50A9C341E79BA6E00E58073 /* GoogleService-Info.plist */; };
+		D64B9BDC3CD4432BB3963D9B /* libPods-Jive Factory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7124D74E5AB4A114AAAC16F4 /* libPods-Jive Factory.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B7B39DF30B9EDF2C81F9DB1 /* Pods-Jive Factory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jive Factory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jive Factory/Pods-Jive Factory.debug.xcconfig"; sourceTree = "<group>"; };
+		7124D74E5AB4A114AAAC16F4 /* libPods-Jive Factory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jive Factory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1CAF9F0DB2945D2848222C /* Pods-Jive Factory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jive Factory.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jive Factory/Pods-Jive Factory.release.xcconfig"; sourceTree = "<group>"; };
 		D50A9B9A1E77206500E58073 /* Jive Factory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jive Factory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50A9B9D1E77206500E58073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D50A9B9F1E77206500E58073 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,31 +79,35 @@
 		D50A9BB91E77206500E58073 /* Jive FactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jive FactoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50A9BBD1E77206500E58073 /* Jive_FactoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jive_FactoryUITests.swift; sourceTree = "<group>"; };
 		D50A9BBF1E77206500E58073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D50A9BCB1E7725BC00E58073 /* thumb-ambulance-ltd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-ambulance-ltd.png"; path = "../../../Downloads/thumb-ambulance-ltd.png"; sourceTree = "<group>"; };
-		D50A9BCC1E7725BC00E58073 /* thumb-black-angels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-black-angels.png"; path = "../../../Downloads/thumb-black-angels.png"; sourceTree = "<group>"; };
-		D50A9BCD1E7725BC00E58073 /* thumb-nicole-atkins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-nicole-atkins.png"; path = "../../../Downloads/thumb-nicole-atkins.png"; sourceTree = "<group>"; };
-		D50A9BCE1E7725BC00E58073 /* thumb-sleepies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-sleepies.png"; path = "../../../Downloads/thumb-sleepies.png"; sourceTree = "<group>"; };
 		D50A9BD41E772AAD00E58073 /* BandsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandsTableViewController.swift; sourceTree = "<group>"; };
 		D50A9BD61E784DC600E58073 /* BandsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandsDetailViewController.swift; sourceTree = "<group>"; };
 		D50A9BD81E7850F900E58073 /* BandDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandDetail.swift; sourceTree = "<group>"; };
-		D50A9BDA1E785AC000E58073 /* locationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = locationIcon.png; path = ../../../Downloads/locationIcon.png; sourceTree = "<group>"; };
-		D50A9BDB1E785AC000E58073 /* locationIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "locationIcon@2x.png"; path = "../../../Downloads/locationIcon@2x.png"; sourceTree = "<group>"; };
-		D50A9BDC1E785AC000E58073 /* locationIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "locationIcon@3x.png"; path = "../../../Downloads/locationIcon@3x.png"; sourceTree = "<group>"; };
 		D50A9BE11E785D7400E58073 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		D50A9BE31E7862E700E58073 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		D50A9BE91E796DAF00E58073 /* full-ambulance-ltd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-ambulance-ltd.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-ambulance-ltd.png"; sourceTree = "<group>"; };
-		D50A9BEA1E796DAF00E58073 /* full-ambulance-ltd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-ambulance-ltd@2x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-ambulance-ltd@2x.png"; sourceTree = "<group>"; };
-		D50A9BEB1E796DAF00E58073 /* full-ambulance-ltd@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-ambulance-ltd@3x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-ambulance-ltd@3x.png"; sourceTree = "<group>"; };
-		D50A9BEC1E796DAF00E58073 /* full-black-angels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-black-angels.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-black-angels.png"; sourceTree = "<group>"; };
-		D50A9BED1E796DAF00E58073 /* full-black-angels@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-black-angels@2x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-black-angels@2x.png"; sourceTree = "<group>"; };
-		D50A9BEE1E796DAF00E58073 /* full-black-angels@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-black-angels@3x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-black-angels@3x.png"; sourceTree = "<group>"; };
-		D50A9BEF1E796DAF00E58073 /* full-nicole-atkins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-nicole-atkins.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-nicole-atkins.png"; sourceTree = "<group>"; };
-		D50A9BF01E796DAF00E58073 /* full-nicole-atkins@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-nicole-atkins@2x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-nicole-atkins@2x.png"; sourceTree = "<group>"; };
-		D50A9BF11E796DAF00E58073 /* full-nicole-atkins@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-nicole-atkins@3x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-nicole-atkins@3x.png"; sourceTree = "<group>"; };
-		D50A9BF21E796DAF00E58073 /* full-sleepies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-sleepies.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-sleepies.png"; sourceTree = "<group>"; };
-		D50A9BF31E796DAF00E58073 /* full-sleepies@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-sleepies@2x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-sleepies@2x.png"; sourceTree = "<group>"; };
-		D50A9BF41E796DAF00E58073 /* full-sleepies@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-sleepies@3x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-sleepies@3x.png"; sourceTree = "<group>"; };
 		D50A9C011E798D0F00E58073 /* BandsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandsModel.swift; sourceTree = "<group>"; };
+		D50A9C071E79B59200E58073 /* full-ambulance-ltd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-ambulance-ltd.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-ambulance-ltd.png"; sourceTree = "<group>"; };
+		D50A9C081E79B59200E58073 /* full-ambulance-ltd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-ambulance-ltd@2x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-ambulance-ltd@2x.png"; sourceTree = "<group>"; };
+		D50A9C091E79B59200E58073 /* full-ambulance-ltd@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-ambulance-ltd@3x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-ambulance-ltd@3x.png"; sourceTree = "<group>"; };
+		D50A9C0A1E79B59200E58073 /* full-black-angels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-black-angels.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-black-angels.png"; sourceTree = "<group>"; };
+		D50A9C0B1E79B59200E58073 /* full-black-angels@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-black-angels@2x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-black-angels@2x.png"; sourceTree = "<group>"; };
+		D50A9C0C1E79B59200E58073 /* full-black-angels@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-black-angels@3x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-black-angels@3x.png"; sourceTree = "<group>"; };
+		D50A9C0D1E79B59200E58073 /* full-nicole-atkins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-nicole-atkins.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-nicole-atkins.png"; sourceTree = "<group>"; };
+		D50A9C0E1E79B59200E58073 /* full-nicole-atkins@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-nicole-atkins@2x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-nicole-atkins@2x.png"; sourceTree = "<group>"; };
+		D50A9C0F1E79B59200E58073 /* full-nicole-atkins@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-nicole-atkins@3x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-nicole-atkins@3x.png"; sourceTree = "<group>"; };
+		D50A9C101E79B59200E58073 /* full-sleepies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-sleepies.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-sleepies.png"; sourceTree = "<group>"; };
+		D50A9C111E79B59200E58073 /* full-sleepies@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-sleepies@2x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-sleepies@2x.png"; sourceTree = "<group>"; };
+		D50A9C121E79B59200E58073 /* full-sleepies@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "full-sleepies@3x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/fullsize/full-sleepies@3x.png"; sourceTree = "<group>"; };
+		D50A9C1F1E79B5A100E58073 /* thumb-ambulance-ltd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-ambulance-ltd.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/thumbnails/regular/thumb-ambulance-ltd.png"; sourceTree = "<group>"; };
+		D50A9C201E79B5A100E58073 /* thumb-black-angels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-black-angels.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/thumbnails/regular/thumb-black-angels.png"; sourceTree = "<group>"; };
+		D50A9C211E79B5A100E58073 /* thumb-nicole-atkins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-nicole-atkins.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/thumbnails/regular/thumb-nicole-atkins.png"; sourceTree = "<group>"; };
+		D50A9C221E79B5A100E58073 /* thumb-sleepies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-sleepies.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Band Images/thumbnails/regular/thumb-sleepies.png"; sourceTree = "<group>"; };
+		D50A9C271E79B5B800E58073 /* locationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = locationIcon.png; path = "../../../Desktop/iOS Dev Level 2 Class/Icons/locationIcon.png"; sourceTree = "<group>"; };
+		D50A9C281E79B5B800E58073 /* locationIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "locationIcon@2x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Icons/locationIcon@2x.png"; sourceTree = "<group>"; };
+		D50A9C291E79B5B800E58073 /* locationIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "locationIcon@3x.png"; path = "../../../Desktop/iOS Dev Level 2 Class/Icons/locationIcon@3x.png"; sourceTree = "<group>"; };
+		D50A9C2D1E79B78A00E58073 /* Jive Factory-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jive Factory-Bridging-Header.h"; sourceTree = "<group>"; };
+		D50A9C2E1E79B78B00E58073 /* Bridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bridge.m; sourceTree = "<group>"; };
+		D50A9C321E79B9AC00E58073 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		D50A9C341E79BA6E00E58073 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +116,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D50A9BE21E785D7400E58073 /* MapKit.framework in Frameworks */,
+				D64B9BDC3CD4432BB3963D9B /* libPods-Jive Factory.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,14 +137,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C79D2C0EF7AC030C5CFF0DCE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B7B39DF30B9EDF2C81F9DB1 /* Pods-Jive Factory.debug.xcconfig */,
+				9B1CAF9F0DB2945D2848222C /* Pods-Jive Factory.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D50A9B911E77206500E58073 = {
 			isa = PBXGroup;
 			children = (
+				D50A9C321E79B9AC00E58073 /* Podfile */,
 				D50A9B9C1E77206500E58073 /* Jive Factory */,
 				D50A9BB11E77206500E58073 /* Jive FactoryTests */,
 				D50A9BBC1E77206500E58073 /* Jive FactoryUITests */,
 				D50A9B9B1E77206500E58073 /* Products */,
 				D50A9BE01E785D7400E58073 /* Frameworks */,
+				C79D2C0EF7AC030C5CFF0DCE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,7 +183,10 @@
 				D50A9BA41E77206500E58073 /* Assets.xcassets */,
 				D50A9BA61E77206500E58073 /* LaunchScreen.storyboard */,
 				D50A9BA91E77206500E58073 /* Info.plist */,
+				D50A9C341E79BA6E00E58073 /* GoogleService-Info.plist */,
 				D50A9BD31E7725DB00E58073 /* Images */,
+				D50A9C2E1E79B78B00E58073 /* Bridge.m */,
+				D50A9C2D1E79B78A00E58073 /* Jive Factory-Bridging-Header.h */,
 			);
 			path = "Jive Factory";
 			sourceTree = "<group>";
@@ -186,25 +212,25 @@
 		D50A9BD31E7725DB00E58073 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				D50A9BDA1E785AC000E58073 /* locationIcon.png */,
-				D50A9BDB1E785AC000E58073 /* locationIcon@2x.png */,
-				D50A9BDC1E785AC000E58073 /* locationIcon@3x.png */,
-				D50A9BCB1E7725BC00E58073 /* thumb-ambulance-ltd.png */,
-				D50A9BCC1E7725BC00E58073 /* thumb-black-angels.png */,
-				D50A9BCD1E7725BC00E58073 /* thumb-nicole-atkins.png */,
-				D50A9BCE1E7725BC00E58073 /* thumb-sleepies.png */,
-				D50A9BE91E796DAF00E58073 /* full-ambulance-ltd.png */,
-				D50A9BEA1E796DAF00E58073 /* full-ambulance-ltd@2x.png */,
-				D50A9BEB1E796DAF00E58073 /* full-ambulance-ltd@3x.png */,
-				D50A9BEC1E796DAF00E58073 /* full-black-angels.png */,
-				D50A9BED1E796DAF00E58073 /* full-black-angels@2x.png */,
-				D50A9BEE1E796DAF00E58073 /* full-black-angels@3x.png */,
-				D50A9BEF1E796DAF00E58073 /* full-nicole-atkins.png */,
-				D50A9BF01E796DAF00E58073 /* full-nicole-atkins@2x.png */,
-				D50A9BF11E796DAF00E58073 /* full-nicole-atkins@3x.png */,
-				D50A9BF21E796DAF00E58073 /* full-sleepies.png */,
-				D50A9BF31E796DAF00E58073 /* full-sleepies@2x.png */,
-				D50A9BF41E796DAF00E58073 /* full-sleepies@3x.png */,
+				D50A9C271E79B5B800E58073 /* locationIcon.png */,
+				D50A9C281E79B5B800E58073 /* locationIcon@2x.png */,
+				D50A9C291E79B5B800E58073 /* locationIcon@3x.png */,
+				D50A9C1F1E79B5A100E58073 /* thumb-ambulance-ltd.png */,
+				D50A9C201E79B5A100E58073 /* thumb-black-angels.png */,
+				D50A9C211E79B5A100E58073 /* thumb-nicole-atkins.png */,
+				D50A9C221E79B5A100E58073 /* thumb-sleepies.png */,
+				D50A9C071E79B59200E58073 /* full-ambulance-ltd.png */,
+				D50A9C081E79B59200E58073 /* full-ambulance-ltd@2x.png */,
+				D50A9C091E79B59200E58073 /* full-ambulance-ltd@3x.png */,
+				D50A9C0A1E79B59200E58073 /* full-black-angels.png */,
+				D50A9C0B1E79B59200E58073 /* full-black-angels@2x.png */,
+				D50A9C0C1E79B59200E58073 /* full-black-angels@3x.png */,
+				D50A9C0D1E79B59200E58073 /* full-nicole-atkins.png */,
+				D50A9C0E1E79B59200E58073 /* full-nicole-atkins@2x.png */,
+				D50A9C0F1E79B59200E58073 /* full-nicole-atkins@3x.png */,
+				D50A9C101E79B59200E58073 /* full-sleepies.png */,
+				D50A9C111E79B59200E58073 /* full-sleepies@2x.png */,
+				D50A9C121E79B59200E58073 /* full-sleepies@3x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -213,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				D50A9BE11E785D7400E58073 /* MapKit.framework */,
+				7124D74E5AB4A114AAAC16F4 /* libPods-Jive Factory.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -224,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D50A9BC21E77206500E58073 /* Build configuration list for PBXNativeTarget "Jive Factory" */;
 			buildPhases = (
+				A432F85C006B09BB029664A3 /* [CP] Check Pods Manifest.lock */,
 				D50A9B961E77206500E58073 /* Sources */,
 				D50A9B971E77206500E58073 /* Frameworks */,
 				D50A9B981E77206500E58073 /* Resources */,
+				14AAF1055ACD1D9EA8A98D68 /* [CP] Embed Pods Frameworks */,
+				E43AE0E612845D7BA6BAB3EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -285,6 +315,7 @@
 				TargetAttributes = {
 					D50A9B991E77206500E58073 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					D50A9BAD1E77206500E58073 = {
@@ -324,28 +355,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D50A9BF81E796DAF00E58073 /* full-black-angels.png in Resources */,
-				D50A9BD01E7725BC00E58073 /* thumb-black-angels.png in Resources */,
-				D50A9BCF1E7725BC00E58073 /* thumb-ambulance-ltd.png in Resources */,
-				D50A9BD11E7725BC00E58073 /* thumb-nicole-atkins.png in Resources */,
-				D50A9BF61E796DAF00E58073 /* full-ambulance-ltd@2x.png in Resources */,
+				D50A9C231E79B5A100E58073 /* thumb-ambulance-ltd.png in Resources */,
+				D50A9C191E79B59200E58073 /* full-nicole-atkins.png in Resources */,
+				D50A9C1E1E79B59200E58073 /* full-sleepies@3x.png in Resources */,
+				D50A9C331E79B9AC00E58073 /* Podfile in Resources */,
+				D50A9C161E79B59200E58073 /* full-black-angels.png in Resources */,
+				D50A9C1A1E79B59200E58073 /* full-nicole-atkins@2x.png in Resources */,
+				D50A9C2C1E79B5B800E58073 /* locationIcon@3x.png in Resources */,
+				D50A9C171E79B59200E58073 /* full-black-angels@2x.png in Resources */,
+				D50A9C151E79B59200E58073 /* full-ambulance-ltd@3x.png in Resources */,
+				D50A9C241E79B5A100E58073 /* thumb-black-angels.png in Resources */,
+				D50A9C251E79B5A100E58073 /* thumb-nicole-atkins.png in Resources */,
 				D50A9BA81E77206500E58073 /* LaunchScreen.storyboard in Resources */,
-				D50A9BF51E796DAF00E58073 /* full-ambulance-ltd.png in Resources */,
-				D50A9BD21E7725BC00E58073 /* thumb-sleepies.png in Resources */,
-				D50A9C001E796DAF00E58073 /* full-sleepies@3x.png in Resources */,
-				D50A9BDD1E785AC000E58073 /* locationIcon.png in Resources */,
-				D50A9BFB1E796DAF00E58073 /* full-nicole-atkins.png in Resources */,
-				D50A9BFD1E796DAF00E58073 /* full-nicole-atkins@3x.png in Resources */,
 				D50A9BA51E77206500E58073 /* Assets.xcassets in Resources */,
-				D50A9BFA1E796DAF00E58073 /* full-black-angels@3x.png in Resources */,
-				D50A9BF71E796DAF00E58073 /* full-ambulance-ltd@3x.png in Resources */,
-				D50A9BF91E796DAF00E58073 /* full-black-angels@2x.png in Resources */,
+				D50A9C2B1E79B5B800E58073 /* locationIcon@2x.png in Resources */,
+				D50A9C131E79B59200E58073 /* full-ambulance-ltd.png in Resources */,
+				D50A9C1B1E79B59200E58073 /* full-nicole-atkins@3x.png in Resources */,
+				D50A9C1D1E79B59200E58073 /* full-sleepies@2x.png in Resources */,
+				D50A9C351E79BA6E00E58073 /* GoogleService-Info.plist in Resources */,
+				D50A9C141E79B59200E58073 /* full-ambulance-ltd@2x.png in Resources */,
 				D50A9BA31E77206500E58073 /* Main.storyboard in Resources */,
-				D50A9BFF1E796DAF00E58073 /* full-sleepies@2x.png in Resources */,
-				D50A9BDE1E785AC000E58073 /* locationIcon@2x.png in Resources */,
-				D50A9BDF1E785AC000E58073 /* locationIcon@3x.png in Resources */,
-				D50A9BFE1E796DAF00E58073 /* full-sleepies.png in Resources */,
-				D50A9BFC1E796DAF00E58073 /* full-nicole-atkins@2x.png in Resources */,
+				D50A9C181E79B59200E58073 /* full-black-angels@3x.png in Resources */,
+				D50A9C2A1E79B5B800E58073 /* locationIcon.png in Resources */,
+				D50A9C1C1E79B59200E58073 /* full-sleepies.png in Resources */,
+				D50A9C261E79B5A100E58073 /* thumb-sleepies.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,11 +398,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14AAF1055ACD1D9EA8A98D68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jive Factory/Pods-Jive Factory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A432F85C006B09BB029664A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E43AE0E612845D7BA6BAB3EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jive Factory/Pods-Jive Factory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D50A9B961E77206500E58073 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50A9C2F1E79B78B00E58073 /* Bridge.m in Sources */,
 				D50A9BD71E784DC600E58073 /* BandsDetailViewController.swift in Sources */,
 				D50A9BE41E7862E700E58073 /* MapViewController.swift in Sources */,
 				D50A9C021E798D0F00E58073 /* BandsModel.swift in Sources */,
@@ -524,24 +606,31 @@
 		};
 		D50A9BC31E77206500E58073 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B7B39DF30B9EDF2C81F9DB1 /* Pods-Jive Factory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Jive Factory/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nobledesktop.Jive-Factory";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jive Factory/Jive Factory-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		D50A9BC41E77206500E58073 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1CAF9F0DB2945D2848222C /* Pods-Jive Factory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Jive Factory/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nobledesktop.Jive-Factory";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jive Factory/Jive Factory-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -619,6 +708,7 @@
 				D50A9BC41E77206500E58073 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D50A9BC51E77206500E58073 /* Build configuration list for PBXNativeTarget "Jive FactoryTests" */ = {
 			isa = XCConfigurationList;
@@ -627,6 +717,7 @@
 				D50A9BC71E77206500E58073 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D50A9BC81E77206500E58073 /* Build configuration list for PBXNativeTarget "Jive FactoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -635,6 +726,7 @@
 				D50A9BCA1E77206500E58073 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

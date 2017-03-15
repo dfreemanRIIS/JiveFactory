@@ -28,6 +28,7 @@ class BandsTableViewController: UITableViewController {
         nicoleAtkinsBandDetail.nextShowTime = "8pm"
         nicoleAtkinsBandDetail.venue = "Bowery Ballroom"
         nicoleAtkinsBandDetail.showDetails = "All ages - $35"
+        nicoleAtkinsBandDetail.videoURL = "http://www.youtube.com/embed/Go9k14yrxeQ?rel=0"
         
         let ambulanceLtdDetails = BandDetail()
         ambulanceLtdDetails.bandName = "Ambulance LTD"
@@ -39,6 +40,7 @@ class BandsTableViewController: UITableViewController {
         ambulanceLtdDetails.nextShowTime = "10:30pm"
         ambulanceLtdDetails.venue = "Mercury Lounge"
         ambulanceLtdDetails.showDetails = "All ages - $18"
+        ambulanceLtdDetails.videoURL = "http://www.youtube.com/embed/l2uzjdxRVyw?rel=0"
         
         let sleepiesDetails = BandDetail()
         sleepiesDetails.bandName = "Sleepies"
@@ -50,6 +52,7 @@ class BandsTableViewController: UITableViewController {
         sleepiesDetails.nextShowTime = "10:30pm"
         sleepiesDetails.venue = "Jive Factory"
         sleepiesDetails.showDetails = "Over 21 - $20"
+        sleepiesDetails.videoURL = "http://www.youtube.com/embed/npQNt3YDI5Q?rel=0"
         
         let blackAngelsDetails = BandDetail()
         blackAngelsDetails.bandName = "Black Angels"
@@ -61,6 +64,7 @@ class BandsTableViewController: UITableViewController {
         blackAngelsDetails.nextShowTime = "8pm"
         blackAngelsDetails.venue = "Cake Shop"
         blackAngelsDetails.showDetails = "Over 21 - $15"
+        blackAngelsDetails.videoURL = "http://www.youtube.com/embed/c-VEcHM-UVY?rel=0"
         
         bandDetails.append(nicoleAtkinsBandDetail)
         bandDetails.append(ambulanceLtdDetails)

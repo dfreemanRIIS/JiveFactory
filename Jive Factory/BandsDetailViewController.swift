@@ -35,7 +35,7 @@ class BandsDetailViewController: UIViewController {
         bandDescriptionLabel.text = currentBandDetail?.bandDescription
         bandImage.image = UIImage(named: currentBandDetail!.fullImageName!)
         
-        let htmlString = "<html><body><iframe style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" src=\"http://www.youtube.com/embed/Go9k14yrxeQ?rel=0\" frameborder=\"0\" allowfullscreen></iframe></body></html>"
+        let htmlString = "<html><body><iframe style=\"position:absolute; top:0; left:0; width:100%; height:100%;\" src=\"\(currentBandDetail!.videoURL!)\" frameborder=\"0\" allowfullscreen></iframe></body></html>"
         
         videoWebView.loadHTMLString(htmlString, baseURL: nil)
     }

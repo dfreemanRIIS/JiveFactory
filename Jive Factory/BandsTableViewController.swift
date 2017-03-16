@@ -22,6 +22,9 @@ class BandsTableViewController: UITableViewController {
         self.view.addSubview(loader)
         loader.startAnimating()
         
+        self.refreshControl?.addTarget(self, action: "refresh", for:
+            UIControlEvents.valueChanged)
+        
         bandsModel.fetch {[weak self] (Void) -> Void in
             if let strongSelf = self {
                 loader.stopAnimating()
@@ -44,6 +47,20 @@ class BandsTableViewController: UITableViewController {
     func handleError() {
         let alert = UIAlertView(title: "Alert", message: "Oops! It's not you its us. No data could be loaded. Please try again later.", delegate: nil, cancelButtonTitle: "Cancel")
         alert.show()
+    }
+    
+    func refresh() {
+        bandsModel.bandDetails.removeAll(keepingCapacity: false)
+        bandsModel.fetch {[weak self] (Void) -> Void in
+            if let strongSelf = self {
+                strongSelf.refreshControl?.endRefreshing()
+                if strongSelf.bandsModel.isError {
+                    strongSelf.handleError()
+                } else {
+                    strongSelf.tableView.reloadData()
+                }
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {

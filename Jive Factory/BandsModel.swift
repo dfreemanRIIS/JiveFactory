@@ -44,15 +44,18 @@ class BandsModel: NSObject {
                                 // A little memory management
                                 if let strongSelf = self {
                                     strongSelf.bandDetails.append(bandDetail)
-                                    strongSelf.isError = true
                                 }
-                                
                             }
                         }
                     }
                     complete()
                 }
-            }   })
+            } else {
+                if let strongSelf = self {
+                    strongSelf.isError = true
+                }
+                complete()
+            }})
         
     }
     

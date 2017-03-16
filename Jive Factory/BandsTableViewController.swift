@@ -16,8 +16,15 @@ class BandsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let loader = UIActivityIndicatorView(activityIndicatorStyle:
+            UIActivityIndicatorViewStyle.gray)
+        loader.frame = CGRect(x: (self.view.frame.size.width-40)/2, y: (self.view.frame.size.height-40)/2, width: 40.0, height: 40.0)
+        self.view.addSubview(loader)
+        loader.startAnimating()
+        
         bandsModel.fetch {[weak self] (Void) -> Void in
             if let strongSelf = self {
+                loader.stopAnimating()
                 strongSelf.tableView.reloadData()
             }
         }

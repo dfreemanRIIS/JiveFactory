@@ -25,7 +25,12 @@ class BandsTableViewController: UITableViewController {
         bandsModel.fetch {[weak self] (Void) -> Void in
             if let strongSelf = self {
                 loader.stopAnimating()
-                strongSelf.tableView.reloadData()
+                
+                if strongSelf.bandsModel.isError {
+                    strongSelf.handleError()
+                } else {
+                    strongSelf.tableView.reloadData()
+                }
             }
         }
         
@@ -34,6 +39,11 @@ class BandsTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+    }
+    
+    func handleError() {
+        let alert = UIAlertView(title: "Alert", message: "Oops! It's not you its us. No data could be loaded. Please try again later.", delegate: nil, cancelButtonTitle: "Cancel")
+        alert.show()
     }
 
     override func didReceiveMemoryWarning() {

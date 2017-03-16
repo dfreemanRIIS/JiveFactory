@@ -11,8 +11,10 @@ import Firebase
 
 class BandsModel: NSObject {
     var bandDetails = [BandDetail]()
+    var isError = false
+    
     func fetch(_ complete:@escaping (Void)->Void){
-        
+        self.isError = false
         // Get a reference to my Firebase URL
         //let myRootRef = Firebase(url:"https://test-4f983.firebaseio.com/ ")
         let myRootRef = FIRDatabase.database().reference()
@@ -42,6 +44,7 @@ class BandsModel: NSObject {
                                 // A little memory management
                                 if let strongSelf = self {
                                     strongSelf.bandDetails.append(bandDetail)
+                                    strongSelf.isError = true
                                 }
                                 
                             }

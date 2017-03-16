@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import SystemConfiguration
 
 class BandsModel: NSObject {
     var bandDetails = [BandDetail]()

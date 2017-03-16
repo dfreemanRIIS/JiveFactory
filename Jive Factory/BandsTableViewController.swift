@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import SystemConfiguration
 
 class BandsTableViewController: UITableViewController {
     
@@ -25,6 +26,7 @@ class BandsTableViewController: UITableViewController {
         self.refreshControl?.addTarget(self, action: "refresh", for:
             UIControlEvents.valueChanged)
         
+        if(isInternetAvailable()){
         bandsModel.fetch {[weak self] (Void) -> Void in
             if let strongSelf = self {
                 loader.stopAnimating()
@@ -35,6 +37,9 @@ class BandsTableViewController: UITableViewController {
                     strongSelf.tableView.reloadData()
                 }
             }
+        }
+        } else {
+            handleError()
         }
         
         // Uncomment the following line to preserve selection between presentations
@@ -61,6 +66,26 @@ class BandsTableViewController: UITableViewController {
                 }
             }
         }
+    }
+    
+    func isInternetAvailable() -> Bool {
+        var zeroAddress = sockaddr_in()
+        zeroAddress.sin_len = UInt8(MemoryLayout.size(ofValue: zeroAddress))
+        zeroAddress.sin_family = sa_family_t(AF_INET)
+        
+        let defaultRouteReachability = withUnsafePointer(to: &zeroAddress) {
+            $0.withMemoryRebound(to: sockaddr.self, capacity: 1) {zeroSockAddress in
+                SCNetworkReachabilityCreateWithAddress(nil, zeroSockAddress)
+            }
+        }
+        
+        var flags = SCNetworkReachabilityFlags()
+        if !SCNetworkReachabilityGetFlags(defaultRouteReachability!, &flags) {
+            return false
+        }
+        let isReachable = (flags.rawValue & UInt32(kSCNetworkFlagsReachable)) != 0
+        let needsConnection = (flags.rawValue & UInt32(kSCNetworkFlagsConnectionRequired)) != 0
+        return (isReachable && !needsConnection)
     }
 
     override func didReceiveMemoryWarning() {

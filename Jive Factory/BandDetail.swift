@@ -2,8 +2,8 @@
 //  BandDetail.swift
 //  Jive Factory
 //
-//  Created by Donald Freeman on 3/14/17.
-//  Copyright © 2017 Noble Desktop. All rights reserved.
+//  Created by n on 12/10/15.
+//  Copyright © 2015 Noble Desktop. All rights reserved.
 //
 
 import UIKit

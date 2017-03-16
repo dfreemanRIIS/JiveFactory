@@ -2,8 +2,8 @@
 //  Jive_FactoryUITests.swift
 //  Jive FactoryUITests
 //
-//  Created by Donald Freeman on 3/13/17.
-//  Copyright © 2017 Noble Desktop. All rights reserved.
+//  Created by n on 12/8/15.
+//  Copyright © 2015 Noble Desktop. All rights reserved.
 //
 
 import XCTest

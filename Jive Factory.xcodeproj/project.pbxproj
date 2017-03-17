@@ -49,6 +49,7 @@
 		D5059C4F1E7ACF510013BE7C /* thumb-sleepies.png in Resources */ = {isa = PBXBuildFile; fileRef = D5059C341E7ACF510013BE7C /* thumb-sleepies.png */; };
 		D5059C501E7ACF510013BE7C /* thumb-sleepies@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5059C351E7ACF510013BE7C /* thumb-sleepies@2x.png */; };
 		D5059C511E7ACF510013BE7C /* thumb-sleepies@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5059C361E7ACF510013BE7C /* thumb-sleepies@3x.png */; };
+		D5059C531E7C1E270013BE7C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5059C521E7C1E270013BE7C /* Main_iPad.storyboard */; };
 		ECD42879D2625D296EF4DA19 /* libPods-Jive Factory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA07947BC39AA198ADE54EB /* libPods-Jive Factory.a */; };
 /* End PBXBuildFile section */
 
@@ -123,6 +124,7 @@
 		D5059C341E7ACF510013BE7C /* thumb-sleepies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-sleepies.png"; path = "Images/thumb-sleepies.png"; sourceTree = "<group>"; };
 		D5059C351E7ACF510013BE7C /* thumb-sleepies@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-sleepies@2x.png"; path = "Images/thumb-sleepies@2x.png"; sourceTree = "<group>"; };
 		D5059C361E7ACF510013BE7C /* thumb-sleepies@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumb-sleepies@3x.png"; path = "Images/thumb-sleepies@3x.png"; sourceTree = "<group>"; };
+		D5059C521E7C1E270013BE7C /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 				0D969CD91C1A31D400630A09 /* BandDetail.swift */,
 				0D969CE31C1B3E3300630A09 /* MapViewController.swift */,
 				0D969C3F1C178E5400630A09 /* Main.storyboard */,
+				D5059C521E7C1E270013BE7C /* Main_iPad.storyboard */,
 				0D969C421C178E5400630A09 /* Assets.xcassets */,
 				0D969C441C178E5400630A09 /* LaunchScreen.storyboard */,
 				0D969C471C178E5400630A09 /* Info.plist */,
@@ -380,6 +383,7 @@
 				D5059C391E7ACF510013BE7C /* full-ambulance-ltd@3x.png in Resources */,
 				D5059C441E7ACF510013BE7C /* locationIcon@2x.png in Resources */,
 				D5059C4F1E7ACF510013BE7C /* thumb-sleepies.png in Resources */,
+				D5059C531E7C1E270013BE7C /* Main_iPad.storyboard in Resources */,
 				D5059C4A1E7ACF510013BE7C /* thumb-black-angels@2x.png in Resources */,
 				D5059C481E7ACF510013BE7C /* thumb-ambulance-ltd@3x.png in Resources */,
 				D5059C421E7ACF510013BE7C /* full-sleepies@3x.png in Resources */,
@@ -636,6 +640,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "Jive Factory/Jive Factory-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -651,6 +656,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Jive Factory/Jive Factory-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

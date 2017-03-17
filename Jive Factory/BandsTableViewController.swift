@@ -28,8 +28,8 @@ class BandsTableViewController: UITableViewController {
         
         if(isInternetAvailable()){
         bandsModel.fetch {[weak self] (Void) -> Void in
+            loader.stopAnimating()
             if let strongSelf = self {
-                loader.stopAnimating()
                 
                 if strongSelf.bandsModel.isError {
                     strongSelf.handleError()

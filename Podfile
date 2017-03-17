@@ -1,4 +1,4 @@
-target 'Jive Factory' do
+target 'MusicApp' do
     pod 'Firebase/Core'
     pod 'Firebase/Database'
 end
